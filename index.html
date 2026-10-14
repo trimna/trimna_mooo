@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwbhkkyS7bpPmK0c82ZQiotLpZgBAHzcT0cTaMKuFFpbs8nPol5WKb8Q4&s=10">
+    <title>trimna.mooo.com</title>
+    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+
+    <style>
+        body { background-color: darkkhaki; font-family: 'Comic Sans MS', Times, 'Times New Roman', serif; }
+        #e { font-size: large; }
+        .container { display: flex; align-items: flex-start; background-color: darkgoldenrod; padding: 5px; gap: 1px; }
+        .item { min-width: 0; border: 1px solid burlywood; background-color: rgb(197, 129, 193); padding: 10px; }
+        .main { flex: 1; }
+        .sidebar { flex: 0 0 230px; overflow-wrap: anywhere; }
+        .container img:not(.ewie) { width: 10%; height: auto; }
+        .ewie { width: 50%; height: auto; }
+        .rainbow-text { padding: 10px; }
+        #player { width: 480px; height: 360px; max-width: 100%; margin: 20px auto; background-color: #333; }
+        #player ruffle-player { width: 100%; height: 100%; }
+.museum {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 25px;
+    margin: 30px 0;
+}
+
+.artwork {
+    box-sizing: border-box;
+    flex: 1 1 350px;
+    max-width: 450px;
+    min-width: 0;
+    padding: 20px;
+    background-color: #e8d9b5;
+    border: 5px ridge #806b42;
+    text-align: center;
+    color: #302719;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.5);
+}
+
+.container .artwork img {
+    display: block;
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+    box-sizing: border-box;
+}
+
+.artwork h3 {
+    margin: 18px 0 12px;
+    font-size: 24px;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.artwork p {
+    margin: 10px 0;
+    font-size: 17px;
+}
+
+.museum + hr {
+    margin-top: 25px;
+}
+    </style>
+</head>
+
+<body>
+    <h1 style="color: darkorchid">Hello we are a serious website for serious stuff.</h1>
+    <h2 style="color: aquamarine">Use our AI tools.</h2>
+    <h4 style="color: chocolate">It's called cowAI.</h4>
+    <a href="https://trimnalosite.neocities.org" id="e" target="_blank">Click this link for funni stuff</a>
+
+    <div class="container">
+        <div class="item main">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3wJvsaC1YCCjnpOrED4Kns3nFmHzluCm6DPCLW99L6w&s=10">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/13/Rotating_earth_%28huge%29.gif">
+            <img src="https://i.pinimg.com/originals/fc/7a/8b/fc7a8b488435c3ade564ded049585332.gif">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0WvILog4hGTz0jrCmhknFN8a3YZkSv2rwIcmhqQNzDQ&s=10">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLjp6mni9CZUMgF0saaYX_0Hv5-b5uo64cQh3Z_JYeMpxAc4kmCbTyFo0&s=10">
+            <img src="https://img.itch.zone/aW1nLzMwMjU0ODQwLnBuZw==/original/NJeDC8.png">
+            <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/firefox-browser-icon.png">
+            <img src="https://cdn.osxdaily.com/wp-content/uploads/2013/07/dancing-banana.gif">
+            <img src="https://media.tenor.com/qu6QZr3R-uUAAAAM/piplash-msm.gif">
+            <img src="https://t2.tudocdn.net/85930?w=1920">
+            <img src="https://i.pinimg.com/originals/b4/e1/1d/b4e11dc2b70207cb94f423386acf3f2c.gif">
+            <img src="https://img1.picmix.com/output/pic/normal/1/4/9/7/11227941_d7fe0.gif">
+            <img src="https://i1.sndcdn.com/artworks-Nk3bhSP0td705GKG-IouG1w-t500x500.jpg">
+            <img src="https://images.uncyc.org/pt/d/db/Desciclogoogle.JPG">
+            <img src="https://uploads.diariodopoder.com.br/2025/02/33b46b97-meme-lula-6.jpeg">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Spot_the_cow.gif">
+            <img src="https://i.pinimg.com/originals/8b/67/b8/8b67b8b6398b4cf863da5917a2d2d7cc.gif">
+            <img src="https://i.pinimg.com/originals/ef/ee/6a/efee6af0a19e9c95b6839639da609daa.gif">
+            <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Flag_of_Poland.svg/1280px-Flag_of_Poland.svg.png">
+            <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/3840px-Flag_of_Brazil.svg.png">
+            <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/960px-Flag_of_Portugal.svg.png">
+            <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/1280px-Flag_of_Romania.svg.png">
+            <img src="https://cdn.britannica.com/15/6215-050-E67C9969/Flag-Slovenia.jpg">
+            <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1280px-Tux.svg.png">
+
+            <h1><marquee>About cows</marquee></h1>
+
+            <p style="font-family: 'Times New Roman', Times, serif;">Domestic cattle are a bovine species belonging to the genus <b>Bos</b> and the order Artiodactyla. They are ungulate mammals with two digits on each limb. The male of the species is called an ox or a bull, while the female is known as a cow; the young animal is called a calf, and later a steer or heifer.</p>
+
+            <p>Lol this is so nerdy</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHy_3XO-vN716J_Ows3vRs94O3imL0UooTiSMl6YFDaA&s=10">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV0qPt4IYQwbpNGuVNaSCPBnv12aZiedkRO5n9be-jsg&s=10">
+            <img src="https://media.tenor.com/Fd2wqsBhDwMAAAAM/nerd-alert.gif">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDX_0h9OVfF1sDyN0FxtKM6t_vnut3xyoHljjz4SujJw&s=10">
+            <img src="https://media.tenor.com/uAIlMmbXBAEAAAAm/nerd-nerd-joe.webp">
+
+            <h2 style="color: red; font-weight: 100;">This website is a top contributor to the fall of the Lithuanian bovine economy.</h2>
+
+            <h1><marquee>Cow anatomy</marquee></h1>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYoyUKliJZwO1jgl6HHAcDZcfJV1XFEc16-YJrj33zz6YvoVRb5Dv-XIo&s=10" class="ewie">
+
+            <h4>for vegans</h4>
+            <p>uhh, weird, but cow</p>
+            <img src="https://i.pinimg.com/736x/75/5a/00/755a004b5ebe86628d6d57aa9c91a404.jpg" class="ewie">
+
+            <h4>for non vegans</h4>
+            <p>do you think cows are juicy?</p>
+            <button id="yesButton">Yes</button>
+            <span id="yesCount">...</span>
+
+            <button id="noButton">No</button>
+            <span id="noCount">...</span>
+
+            <p><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/GLW_2_global_distributions_of_a%29_cattle.tif/lossy-page1-500px-GLW_2_global_distributions_of_a%29_cattle.tif.jpg" class="ewie"></p>
+
+            <h4>for nerds</h4>
+            <p style="color: red;">You have been tricked by the evil cow! Put your address to win 1 Trillion dollars!!!!</p>
+            <input type="search" name="search">
+
+            <h6><b>OFFICIAL SECURITY NOTICE:</b> We would like to inform all users that the statement "You have been tricked by the evil cow! Put your address to win 1 Trillion dollars!!!!" is entirely false and intended solely as a joke. No prizes will be awarded, and we strongly advise all visitors NOT to enter or disclose their home address. As a responsible company committed to protecting our users, we take privacy and personal information security very seriously. We sincerely apologize for any confusion caused by the Evil Cow incident. Thank you for your cooperation. Now click here to do our age verification: <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">CLICK HERE FOR OFFICIAL AGE VERIFICATION</a>.</h6>
+
+            <h2>Cow Media Player 2004™</h2>
+
+            <div id="player">
+                <object data="./cmp.swf"
+                        type="application/x-shockwave-flash"
+                        width="480"
+                        height="360">
+                    <param name="movie" value="./cmp.swf">
+                </object>
+            </div>
+            
+            <h1>test</h1>
+
+            <p>This website is a big source about cows for more than 67 thousand companies like Microoft and Googlag.</p>
+
+            <marquee><h1>50 chosen websites for the <i>trimna.mooo.com</i> hall of fame</h1></marquee>
+
+            <ul>
+                <li>#1: <a href="https://freedns.afraid.org/">FreeDNS</a> - I got this subdomain from there!</li>
+                <li>#2: <a href="https://google.com/">Google</a> - The greedy search engine we all hate and love..</li>
+                <li>#3: <a href="https://vercel.com/">Vercel</a> - This website would not exist without them!</li>
+                <li>#4: <a href="https://www.wikipedia.org/">Wikipedia</a> - Our favourite wiki!</li>
+                <li>#5: <a href="https://www.firefox.com">Firefox</a> - The best web browser</li>
+                <li>#6: <a href="https://ruffle.rs/">Ruffle</a> - They are the reason Flash isn't dead!</li>
+                <li>#7: <a href="https://neocities.org/">Neocities</a> - Reincarnation of the old geocities</li>
+                <li>#8: <a href="https://web.archive.org/">The Internet Archive</a> - I got Photoshop CS6 from there!</li>
+                <li>#9: <a href="https://www.nine.com/">Nine</a> - Have no idea what this is for, only here for the sillies</li>
+                <li>#10: <a href="https://www.debian.org/index.pt.html">The Debian Foundation</a> - The best distro</li>
+                <li>#11: <a href="https://www.dosgamesarchive.com/">DOS Games Archive</a> - Another big archive of old stuff, but it's for games only!</li>
+                <li>#12: <a href="https://www.gnu.org/">GNU Project</a> - Gnus are close to cows</li>
+                <li>#13: <a href="https://github.com">GitHub</a> - The hub for nerds</li>
+                <li>#14: <a href="https://trimnalosite.neocities.org/">Trimnalosite</a> - "Bunch of stuff, here!"</li>
+                <li>#15: <a href="https://flashdojo.com">FlashDojo</a> - Newgrounds but better and with no porn</li>
+                <li>#16: <a href="https://trimnalosite.neocities.org/pytxt">PyTXT</a> - Created by Trimna, the person who decided that the internet needed another text editor.</li>
+                <li>#17: <a href="https://www.c-language.org/">C</a> - They desevre the c.org!</li>
+                <li>#18: <a href="https://www.vim.org/">Vim</a> -   The loved text editor who loves Uganda, which is also loved</li>
+                <li>#19: <a href="https://chatgpt.com">ChatGPT</a> - Thanks for helping me debug my codes at 11PM.</li>
+                <li>#20: <a href="https://claude.com/">Claude</a> - Kinda threatening to humanity, but it's cool</li>
+                <li>#21: <a href="https://www.adobe.com">Adobe</a> - Only here because of old Adobe.</li>
+                <li>#22: <a href="https://www.win-rar.com/start.html?&L=9">WinRAR</a> - The goat</li>
+                <li>#23: <a href="https://rust-lang.org">Rust language</a> - Bye memory leaks, hi new painful things to learn!</li>
+                <li>#24: <a href="https://www.youtube.com/">Youtube</a> - The website responsible of approximately 43% of my internet usage.</li>
+                <li>#25: <a href="https://www.reddit.com/">Reddit</a> - The land of the chuds</li>
+                <li>#26: <a href="https://scratch.mit.edu/">Scratch</a> - Where I spent an unreasonable amount of time making stuff</li>
+                <li>#27: <a href="https://www.mediafire.com/">MediaFire</a> - The best place to distribute files anonymously</li>
+                <li>#28: <a href="https://stackoverflow.com">Stack Overflow</a> - Place to copy codes from people</li>
+                <li>#29: <a href="https://knowyourmeme.com/">Know Your Meme</a> - Website for academic research</li>
+                <li>#30: <a href="https://www.python.org/">Python</a> - Python</li>
+                <li>#31: <a href="http://mooo.com/">mooo.com</a> - moooooooo...</li>
+                <li>#32: <a href="https://theuselessweb.com/">The Useless Web</a> - It's not that useless, trust me!</li>
+                <li>#33: <a href="https://itch.io/">itch.io</a> - Place to play and publish games, very hard to become famous in it</li>
+                <li>#34: <a href="https://lichess.org/">Lichess</a> - Chess, who hates a good old chess? Most people who say it's boring don't even know what a pawn does</li>
+                <li>#35: <a href="https://www.chess.com/">Chess.com</a> - Lichess but greedy</li>
+                <li>#36: <a href="https://neal.fun/">Neal.fun</a> - Very fun!!</li>
+                <li>#37: <a href="https://homestarrunner.com/">Homestar Runner</a> - The internet was weird before social media</li>
+                <li>#38: <a href="https://www.coolmathgames.com/">Coolmath Games</a> - A fundamental part of computer lab history.</li>
+                <li>#39: <a href="https://www.friv.com/">Friv</a> - Another fundamental part of computer lab history.</li>
+                <li>#40: <a href="http://poki.com/">Poki</a> - The modern fundamental part of computer lab history which is attractive to 7 year old hyperactive kids.</li>
+                <li>#41: <a href="https://porkbun.com/">Porkbun</a> - Place to buy domain</li>
+                <li>#42: <a href="https://www.myinstants.com">Myinstants</a> - Funny place for funny trolling</li>
+                <li>#43: <a href="https://sourceforge.net/">SourceForge</a> - Somehow still alive</li>
+                <li>#44: <a href="https://archlinux.org/">Arch Linux</a> - Download arch and you'll instantly become a sedentary geek.</li>
+                <li>#45: <a href="https://htwins.net/">Htwins</a> - Fun</li>
+                <li>#46: <a href="https://www.virtualbox.org/">VirtualBox</a> - Computer inside a computer</li>
+                <li>#47: <a href="https://www.vmware.com/">Vmware</a> - Another computer inside a computer</li>
+                <li>#48: <a href="https://www.qemu.org/">QEMU</a> - The nerdy computer inside a computer</li>
+                <li>#49: <a href="https://www.php.net/">PHP Website</a> - Thanks for being the worst programming language ever!</li>
+                <li>#50: <a href="https://winamp.com/">Winamp</a> - It really whips the llama's ass.</li>
+            </ul>
+
+            <h2>Leave a message for the cowkeeper!</h2>
+            <a href="http://www.smartgb.com" target="_blank"><img alt="Free Guestbook" border="0" src="http://extras3.smartgb.com/b/logo3_88_31.gif" width="88" height="31"></a><br><a href="http://users3.smartgb.com/g/g.php?a=s&i=g36-42425-d6">My Guestbook</a>
+
+            <h2>Visit counter</h2>
+             <script type="text/javascript" src="https://www.counters-free.net/count/kcs7"></script><br>
+ <a href='https://www.counters-free.net/'>www.counters-free.net</a> <script type='text/javascript' src='https://www.whomania.com/ctr?id=6072d72ceae8ce913dbca411ab90810c3e3c71dc'></script>
+             <script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=Zh_2r9x-Z6fZd9s-UIZ1IhJNEzynkm1U294-JvCfGlM"></script>
+             <a href="https://info.flagcounter.com/PbMw"><img src="https://s05.flagcounter.com/count2/PbMw/bg_FFFFFF/txt_000000/border_CCCCCC/columns_8/maxflags_250/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+             <a href="https://info.flagcounter.com/NwIp"><img src="https://s01.flagcounter.com/count2/NwIp/bg_FFFFFF/txt_000000/border_CCCCCC/columns_8/maxflags_250/viewers_0/labels_0/pageviews_1/flags_0/percent_1/" alt="Flag Counter" border="0"></a>
+             <p><object id="melonland-surf-club" data="https://melonland.net/surf-badge.svg?fill=#383838" type="image/svg+xml" style="width: 100px; height: 100px;"></object></p>
+
+            <p><button>Hello, my name is Bob the button</button></p>
+
+            <h3>#BRINGTHEMARQUEESBACK</h3>
+
+            <marquee><h1>Hall of shame</h1></marquee>
+            
+            <ul>
+            <li>#1: <a href="https://discord.com/">Discord</a> - Stop using this NOW</li>
+            <li>#2: <a href="https://www.adobe.com">Adobe</a> - Only here because of new Adobe. Maybe old adobe was bad too, but they were so easy to pirate</li>
+            <li>#3: <a href="https://www.7-zip.org/">7-Zip</a> - Bad UI, not safe</li>
+            <li>#4: <a href="https://www.gimp.org/">GIMP</a> - We want photoshop, not whatever this is..</li>
+            <li>#5: <a href="https://x.com/">X(Twitter)</a> - The new UI is just weird</li>
+            <li>#6: <a href="https://explore.microsoft.com/pt-br/edge?form=MA13FJ&cs=3508739050">Microsoft Edge</a> - Microsoft, just quit making browsers</li>
+            <li>#8: <a href="http://www.captcha.net/">CAPTCHA</a> - Robots can complete you now</li>
+            <li>#9: <a href="https://www.nestle.com/">Nestle</a> - We know what you did</li>
+            <li>#10: <a href="https://www.utorrent.com">µTorrent</a> - It was great, but it was ruined by a greedy company</li>
+            </ul>
+
+            <h1 style="color:red">This section is under construction.</h1>
+
+            <img src="https://t3.ftcdn.net/jpg/03/44/17/18/360_F_344171869_h3nxznW93zBoOLuMeIJ3Q3xzanFSN8vu.jpg">
+            <img src="https://media.tenor.com/MRCIli40TYoAAAAj/under-construction90s-90s.gif">
+            <img src="https://media0.giphy.com/media/v1.Y2lkPTZjMDliOTUyMDU3YmNib3V6cmlkNG9zNmVlcmN5bGVtNzZueGxvdDEzOTM4d2U3YSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/EIiJp9cQ3GeEU/giphy.gif">
+            <img src="https://i.pinimg.com/originals/b4/32/48/b4324850a88409aaf33ac2528ec7d55b.gif">
+            <img src="https://img1.picmix.com/output/stamp/normal/6/7/6/4/2354676_bfb4c.gif">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJJqQRYsheOBjBQsVC8aPVFeD_LqpxCVcTSy6cpNPbxg&s=10">
+            <img src="https://www.demar.eel.usp.br/assets/images/clipart/en-construction.gif">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJIU19mmY3gUk87CLVwgYcIyrjsTOwjNNKnqZzpbSPVQ&s=10">
+
+            <h2>Download PyTXT!</h2>
+            <a href="https://trimnalosite.neocities.org/pytxt">Click here! (Trimna reccomended)</a>
+            <p><img src="https://img.itch.zone/aW1nLzMwMjU0ODQwLnBuZw==/315x250%23c/apLF7m.png"></p>
+
+<h1>Welcome to the Trimna.mooo.com Museum!</h1>
+
+<p>Welcome, visitor, to the greatest museum on the internet. You are going to find lots of cool stuff here.</p>
+
+<p>
+    Want to exhibit your own artwork here?
+    Leave a message in my guestbook and I'll take a look at it!
+</p>
+
+<h2>Permanent Collection</h2>
+
+<div class="museum">
+
+    <div class="artwork">
+        <img src="https://pbs.twimg.com/media/HQcAgIgWwAAby2K?format=png&name=360x360"
+             alt="The silly stickman">
+        <h3>"The Silly Stickman"</h3>
+        <p>Artist: Trimna</p>
+        <p>Year: 2026</p>
+    </div>
+
+    <div class="artwork">
+        <img src="https://art.ngfiles.com/images/7683000/7683799_3201158_trimna_bean.3b8d88a0579e363cf814fde2fa94456b.webp?f1777233745"
+             alt="The silly bean">
+        <h3>"The Silly Bean"</h3>
+        <p>Artist: Trimna</p>
+        <p>Year: 2026</p>
+    </div>
+
+    <div class="artwork">
+        <img src="https://art.ngfiles.com/images/7830000/7830773_3373435_trimna_untitled-7830773.124e5b69c212e71f85d4685d04ac4a79.webp?f1781484559"
+             alt="The silly chep">
+        <h3>"The Silly Chep"</h3>
+        <p>Artist: Trimna</p>
+        <p>Year: 2026</p>
+    </div>
+
+    <div class="artwork">
+        <img src="https://cdn2.scratch.mit.edu/get_image/gallery/36536387_170x100.png"
+             alt="The meatballers">
+        <h3>"The Meatballers"</h3>
+        <p>Artist: Trimna</p>
+        <p>Year: 2025</p>
+    </div>
+
+</div>
+
+<p>Thank you for visiting the Trimna.mooo.com museum. Please do not touch the artwork, the museum cannot afford security cameras.</p>
+
+<h1>useless header</h1>
+
+<h2>Gif ranking</h2>
+<ul>
+    <li>5th: Motorcycle day gif </li>
+    <img src="https://media.tenor.com/N_Mw29kFUnwAAAA1/national-motorcycle-ride-day-motorcycle-day.webp">
+    <p>There's nothing special about it, a motorcycle ride day is not important and a facebook mom would have used this.</p>
+
+    <li>4th: Dancing O gif </li>
+    <img src="https://media.tenor.com/doRV9tAq3U0AAAAM/dancing-letter.gif">
+    <p>A bit weird, but his dances are cool</p>
+
+    <li>3rd: Russian uTorrent guy </li>
+    <img src="https://media.tenor.com/wdWp2q_BMkgAAAAM/%D0%B1%D0%B5%D1%81%D0%BF%D0%BB%D0%B0%D1%82%D0%BD%D0%BE%D0%B2%D0%B3%D0%B8%D0%B3%D0%B0%D0%B1%D0%B0%D0%B9%D1%82%D0%B0%D1%85-%D0%BF%D0%B0%D0%BF%D0%B8%D1%87.gif">
+    <p>Communist propaganda</p>
+    
+    <li>2nd: Drink that Koolaid </li>
+    <img src="https://media.tenor.com/CGAabIhdvaAAAAAM/vaughn-chat.gif">
+    <p>Hell YEAH</p>
+
+    <li>1st: Low cortisol</li>
+    <img src="https://media.tenor.com/iywb7z_ESdIAAAA1/low-cortisol-low.webp">
+    <p>Just chilling</p>
+
+</ul>
+
+<p>Finnaly, our best product: CowAI</p>
+<h2>CowAI™ powered by the <a href="https://trimna.itch.io/poopy-ai">Poopy AI™ technology</a></h2>
+
+            <div id="player">
+                <object data="./cai.swf"
+                        type="application/x-shockwave-flash"
+                        width="480"
+                        height="360">
+                    <param name="movie" value="./cai.swf">
+                </object>
+            </div>
+
+            <p>Ok, I guess I don't have anything more to show..</p>
+
+
+        </div> 
+
+        <div class="item sidebar">
+            <div class="rainbow-text"><span style="color: #ff0000">l</span><span style="color: #ff4400">o</span><span style="color: #ff8800">o</span><span style="color: #ffc800">k</span> <span style="color: #f2ff00">a</span><span style="color: #aeff00">t</span> <span style="color: #6eff00">t</span><span style="color: #2bff00">h</span><span style="color: #00ff19">i</span><span style="color: #00ff59">s</span> <span style="color: #00ff9d">r</span><span style="color: #00ffe1">a</span><span style="color: #00ddff">i</span><span style="color: #0099ff">n</span><span style="color: #0055ff">b</span><span style="color: #0015ff">o</span><span style="color: #2f00ff">w</span> <span style="color: #7300ff">t</span><span style="color: #b300ff">e</span><span style="color: #f600ff">x</span><span style="color: #ff00c3">t</span><span style="color: #ff0084">!</span><span style="color: #ff0040">!</span></div>
+
+            <h3>Why am I smaller?</h3>
+            <h1><b>#JUSTICEFORSMALLERDIVS</b></h1>
+            <p>We have feelings too.</p>
+            <h4>I KNOW YOU'RE READING THE OTHER DIV! JUSTICE FOR US</h4>
+
+<p>Small divs deserve equal rights!</p>
+
+<button id="petitionButton">Click to join the petition</button>
+<p style="color: red;">Worldwide signatures: <span id="petitionCount">Loading...</span></p>
+
+        </div>
+
+    </div>
+
+    <footer style="background-color: gray; text-align: center; padding: 5px;">
+          <h2>A website by Trimna</h2>
+          <p>Go to the main website<a href="https://trimnalosite.neocities.org"> Here</a></p>
+          <p>Thanks for <a href="https://freedns.afraid.org/">FreeDNS</a> for the .mooo.com subdomain!</p>
+    </footer>
+
+    <script>
+
+
+const counters = {
+    petition: "trimna_justice_smallerdivs_2026",
+    yes: "trimna_cows_juicy_yes_2026",
+    no: "trimna_cows_juicy_no_2026"
+};
+
+async function updateCount(counterName, elementId) {
+    const display = document.getElementById(elementId);
+
+    try {
+        const response = await fetch(
+            "https://countapi.mileshilliard.com/api/v1/get/" + counterName
+        );
+
+        if (!response.ok) {
+            throw new Error("Could not get the counter");
+        }
+
+        const result = await response.json();
+
+        display.textContent = result.value;
+    } catch (error) {
+        display.textContent = "Unavailable";
+        console.error("Could not load counter:", error);
+    }
+}
+
+async function registerClick(counterName, elementId, buttonId) {
+    const button = document.getElementById(buttonId);
+    const display = document.getElementById(elementId);
+
+    button.disabled = true;
+
+    try {
+        const response = await fetch(
+            "https://countapi.mileshilliard.com/api/v1/hit/" + counterName
+        );
+
+        if (!response.ok) {
+            throw new Error("Could not register the click");
+        }
+
+        const result = await response.json();
+
+        display.textContent = result.value;
+    } catch (error) {
+        alert("The counter is unavailable right now. Try again later!");
+        console.error("Could not register click:", error);
+    }
+
+    button.disabled = false;
+}
+
+document.getElementById("petitionButton").onclick = function () {
+    registerClick(
+        counters.petition,
+        "petitionCount",
+        "petitionButton"
+    );
+};
+
+document.getElementById("yesButton").onclick = function () {
+    registerClick(
+        counters.yes,
+        "yesCount",
+        "yesButton"
+    );
+};
+
+document.getElementById("noButton").onclick = function () {
+    registerClick(
+        counters.no,
+        "noCount",
+        "noButton"
+    );
+};
+
+updateCount(counters.petition, "petitionCount");
+updateCount(counters.yes, "yesCount");
+updateCount(counters.no, "noCount");
+
+</script>
+
+</body>
+</html>
